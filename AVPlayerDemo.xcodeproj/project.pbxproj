@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56692D7D21FF09820089EF05 /* HCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56692D7C21FF09820089EF05 /* HCButton.swift */; };
+		56692D7F21FF0CD40089EF05 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56692D7E21FF0CD40089EF05 /* UIColor.swift */; };
+		56692D8121FF0E180089EF05 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56692D8021FF0E180089EF05 /* UIImage.swift */; };
+		56692D8922019B8B0089EF05 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56692D8822019B8B0089EF05 /* String.swift */; };
+		56763FF72216939900EF8844 /* HCPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56763FF62216939900EF8844 /* HCPlayerController.swift */; };
 		56F74C7B21F5BFCD00E81F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74C7A21F5BFCD00E81F3D /* AppDelegate.swift */; };
 		56F74C7D21F5BFCD00E81F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74C7C21F5BFCD00E81F3D /* ViewController.swift */; };
 		56F74C8021F5BFCD00E81F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F74C7E21F5BFCD00E81F3D /* Main.storyboard */; };
 		56F74C8221F5BFD200E81F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F74C8121F5BFD200E81F3D /* Assets.xcassets */; };
 		56F74C8521F5BFD200E81F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F74C8321F5BFD200E81F3D /* LaunchScreen.storyboard */; };
+		56F74C8E21F5C22200E81F3D /* HCPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74C8D21F5C22200E81F3D /* HCPlayer.swift */; };
+		56F74C9021F5C24F00E81F3D /* HCPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74C8F21F5C24F00E81F3D /* HCPlayerView.swift */; };
+		56F74CA721FB194C00E81F3D /* HCMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74CA621FB194B00E81F3D /* HCMediaItem.swift */; };
+		56F74CA921FB20F800E81F3D /* HCPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F74CA821FB20F800E81F3D /* HCPlayerControlView.swift */; };
+		BD5A8D83CC7A0A634CE531C9 /* Pods_AVPlayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0093D70B63FFB28A61A12DA /* Pods_AVPlayerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56692D7C21FF09820089EF05 /* HCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCButton.swift; sourceTree = "<group>"; };
+		56692D7E21FF0CD40089EF05 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		56692D8021FF0E180089EF05 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		56692D8822019B8B0089EF05 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		56692D8A22019C300089EF05 /* AVPlayerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVPlayerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		56763FF62216939900EF8844 /* HCPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPlayerController.swift; sourceTree = "<group>"; };
 		56F74C7721F5BFCD00E81F3D /* AVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F74C7A21F5BFCD00E81F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56F74C7C21F5BFCD00E81F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,13 @@
 		56F74C8121F5BFD200E81F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56F74C8421F5BFD200E81F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56F74C8621F5BFD200E81F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F74C8D21F5C22200E81F3D /* HCPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPlayer.swift; sourceTree = "<group>"; };
+		56F74C8F21F5C24F00E81F3D /* HCPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPlayerView.swift; sourceTree = "<group>"; };
+		56F74CA621FB194B00E81F3D /* HCMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCMediaItem.swift; sourceTree = "<group>"; };
+		56F74CA821FB20F800E81F3D /* HCPlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPlayerControlView.swift; sourceTree = "<group>"; };
+		5D60EF4DE2C7CEDFC3D9DB05 /* Pods-AVPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7A1FFAB7FCA88FF29DA6BC /* Pods-AVPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B0093D70B63FFB28A61A12DA /* Pods_AVPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +52,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5A8D83CC7A0A634CE531C9 /* Pods_AVPlayerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56692D8722019B740089EF05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56692D8021FF0E180089EF05 /* UIImage.swift */,
+				56692D7E21FF0CD40089EF05 /* UIColor.swift */,
+				56692D8822019B8B0089EF05 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		56F74C6E21F5BFCD00E81F3D = {
 			isa = PBXGroup;
 			children = (
 				56F74C7921F5BFCD00E81F3D /* AVPlayerDemo */,
 				56F74C7821F5BFCD00E81F3D /* Products */,
+				BB279E16E4E20BDAA2E90342 /* Pods */,
+				7E0290F973A94A40FA77A701 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +90,7 @@
 		56F74C7921F5BFCD00E81F3D /* AVPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				56F74C8C21F5BFDA00E81F3D /* HCPlayerKit */,
 				56F74C7A21F5BFCD00E81F3D /* AppDelegate.swift */,
 				56F74C7C21F5BFCD00E81F3D /* ViewController.swift */,
 				56F74C7E21F5BFCD00E81F3D /* Main.storyboard */,
@@ -64,6 +101,38 @@
 			path = AVPlayerDemo;
 			sourceTree = "<group>";
 		};
+		56F74C8C21F5BFDA00E81F3D /* HCPlayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				56692D8722019B740089EF05 /* Extension */,
+				56763FF62216939900EF8844 /* HCPlayerController.swift */,
+				56F74C8D21F5C22200E81F3D /* HCPlayer.swift */,
+				56F74C8F21F5C24F00E81F3D /* HCPlayerView.swift */,
+				56F74CA821FB20F800E81F3D /* HCPlayerControlView.swift */,
+				56692D7C21FF09820089EF05 /* HCButton.swift */,
+				56F74CA621FB194B00E81F3D /* HCMediaItem.swift */,
+				56692D8A22019C300089EF05 /* AVPlayerDemo-Bridging-Header.h */,
+			);
+			path = HCPlayerKit;
+			sourceTree = "<group>";
+		};
+		7E0290F973A94A40FA77A701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0093D70B63FFB28A61A12DA /* Pods_AVPlayerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB279E16E4E20BDAA2E90342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D60EF4DE2C7CEDFC3D9DB05 /* Pods-AVPlayerDemo.debug.xcconfig */,
+				7A7A1FFAB7FCA88FF29DA6BC /* Pods-AVPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56F74C8921F5BFD200E81F3D /* Build configuration list for PBXNativeTarget "AVPlayerDemo" */;
 			buildPhases = (
+				083D086FE2003CFF53A855A3 /* [CP] Check Pods Manifest.lock */,
 				56F74C7321F5BFCD00E81F3D /* Sources */,
 				56F74C7421F5BFCD00E81F3D /* Frameworks */,
 				56F74C7521F5BFCD00E81F3D /* Resources */,
+				5EA0FF1FF41603B445E6E4AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					56F74C7621F5BFCD00E81F3D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,13 +202,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083D086FE2003CFF53A855A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA0FF1FF41603B445E6E4AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56F74C7321F5BFCD00E81F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F74C9021F5C24F00E81F3D /* HCPlayerView.swift in Sources */,
+				56F74CA721FB194C00E81F3D /* HCMediaItem.swift in Sources */,
+				56692D8922019B8B0089EF05 /* String.swift in Sources */,
 				56F74C7D21F5BFCD00E81F3D /* ViewController.swift in Sources */,
+				56F74C8E21F5C22200E81F3D /* HCPlayer.swift in Sources */,
+				56F74CA921FB20F800E81F3D /* HCPlayerControlView.swift in Sources */,
+				56692D7F21FF0CD40089EF05 /* UIColor.swift in Sources */,
+				56692D8121FF0E180089EF05 /* UIImage.swift in Sources */,
 				56F74C7B21F5BFCD00E81F3D /* AppDelegate.swift in Sources */,
+				56692D7D21FF09820089EF05 /* HCButton.swift in Sources */,
+				56763FF72216939900EF8844 /* HCPlayerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +408,10 @@
 		};
 		56F74C8A21F5BFD200E81F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D60EF4DE2C7CEDFC3D9DB05 /* Pods-AVPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49TQG28YWX;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
@@ -291,6 +421,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhss.AVPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVPlayerDemo/HCPlayerKit/AVPlayerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +430,10 @@
 		};
 		56F74C8B21F5BFD200E81F3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A1FFAB7FCA88FF29DA6BC /* Pods-AVPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49TQG28YWX;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
@@ -309,6 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhss.AVPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVPlayerDemo/HCPlayerKit/AVPlayerDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
